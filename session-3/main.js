@@ -1,0 +1,1 @@
+const batch = [{name:'', age: 0, email: '', phone: ''}]
