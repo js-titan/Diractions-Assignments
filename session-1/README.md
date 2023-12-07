@@ -1,15 +1,14 @@
-## What we have covered? 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misbah</title>
+</head>
+<body>
+    <h1><p style="padding: 300px;">
 
-1. What are DOM elements
-2. Where to see the [documentation](https://www.w3schools.com/html/) for these html elements? 
-3. How to build a HTML Page? 
-4. What are the essential Components of the page? 
-5. What type of tags are available? 
-6. What is the structure of the DOM? [tree structure](https://www.openbookproject.net/tutorials/getdown/css/images/lesson4/HTMLDOMTree.png)
-7. What is CSS? 
-8. Where to see the [documentation](https://www.w3schools.com/css/) for these CSS elements? 
-9. How to include CSS? What Precedence does it have? 
-10. What is a Web Server and how Server and Client Interact? ![Alt text](image.png)
-
-Assignment: 
-- [ ] Complete the Introduction section and style it with one of the many available CSS Style Guidelines (Material Design, Bootstrap, and others)
+    Hi, I'm Misbah, a 22-year-old with a BS in Mathematics.
+ I currently work as a project coordinator, directing and overseeing projects with a focus on applying analytical and problem-solving skills.
+    </h1>
+</body>
+</html>

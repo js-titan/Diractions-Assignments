@@ -1,0 +1,54 @@
+class ListNode {
+    constructor(value, next = null) {
+      this.value = value;
+      this.next = next;
+    }
+  }
+  
+  function reverseLinkedList(head) {
+    let prev = null;
+    let current = head;
+    let next = null;
+  
+    while (current !== null) {
+      next = current.next; // Save the next node
+      current.next = prev; // Reverse the link
+      prev = current; // Move prev one step forward
+      current = next; // Move current one step forward
+    }
+  
+    // After the loop, 'prev' will be the new head of the reversed list
+    return prev;
+  }
+  
+  // Example usage:
+  
+  // Create a linked list: 1 -> 2 -> 3 -> 4 -> 5
+  const head = new ListNode(1,
+    new ListNode(2,
+      new ListNode(3,
+        new ListNode(4,
+          new ListNode(5)
+        )
+      )
+    )
+  );
+  
+  console.log("Original Linked List:");
+  printLinkedList(head);
+  
+  const reversedHead = reverseLinkedList(head);
+  
+  console.log("\nReversed Linked List:");
+  printLinkedList(reversedHead);
+  
+  // Helper function to print the linked list
+  function printLinkedList(node) {
+    let current = node;
+    while (current !== null) {
+      process.stdout.write(`${current.value} -> `);
+      current = current.next;
+    }
+    console.log("null");
+  }
+  
