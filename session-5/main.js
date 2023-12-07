@@ -8,6 +8,7 @@ const sumMinMax = (arr) => {
   
   arr = arr.filter((x) =>  typeof x === "number" );
 // console.log("wertyuioiuytr ",arr);
+
   const minValue = Math.min(...arr)
   const maxValue = Math.max(...arr)
   if (minValue === maxValue) return minValue * arr[0];
