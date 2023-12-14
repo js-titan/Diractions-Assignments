@@ -6,3 +6,7 @@
     {name:'Faisal', id: 3},
     {name:'Misbah', id: 6},
 ]
+
+const
+let
+var
